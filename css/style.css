@@ -1,3 +1,4 @@
+
 .header{
     background-color: white;
     border-bottom: 0.5px solid black;
@@ -6,6 +7,8 @@
 
 body{
     background-color: whitesmoke;
+    overflow-x: hidden;
+
 }
 .auto-margin{
     margin-left: 100px;
@@ -28,6 +31,7 @@ body{
     font-weight: bold;
     padding-top: 20px;
     padding-left: 10px;
+    color: #8B4513;
 }
 
 
@@ -35,19 +39,19 @@ body{
 
 .image{
     
-    height: 500px;
+    height: 490px;
     width: 350px;
     align-items: center;
 }
 .card{
     transition: 1.2s;
     background-color: #DEB887;
-    height: 600px;
+    height: 550px;
     width: 350px;
 }
 .card:hover{
-    box-shadow: 1px 1px 5px grey;
-    transform: scale(1.05);
+    box-shadow: 1px 1px 7px #8B4513;
+    transform: scale(1);
 }
 
 .btn-primary{
@@ -159,4 +163,29 @@ i{
     height: 500px;
     width: 500px;
     border-radius: 50%;
+    align-items: center;
+}
+.fa-heart{
+    color: black;
+    font-size: 30px;
+    padding-right: 0;
+}
+
+/**shop page dropdown*/
+.dropdown-menu{
+    height: 400px;
+    width: 100%;
+}
+.btn-secondary-dropdown{
+    font-size: 25px;
+    padding: 5px;
+    margin:10px;
+    background-color: white;
+    color: black;
+    border: #a57858;
+}
+.related{
+    height: 350px;
+    width: 270px;
+    background-color: #a57858;
 }
