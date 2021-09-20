@@ -88,9 +88,7 @@ i{
     
 }
 
-.footer{
-    height: 500px;
-}
+
 
 /*CAROSUEL*/
 
@@ -184,8 +182,17 @@ i{
     color: black;
     border:none;
 }
+.btn-secondary-dropdown:focus {outline:0;}
 .related{
     height: 350px;
     width: 270px;
     background-color: #a57858;
+}
+
+/*Responsive Nav bar*/
+
+.nav-item{
+    padding:10px;
+    font-size: 20px;
+    font-weight: bold;
 }
