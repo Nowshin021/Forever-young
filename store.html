@@ -12,260 +12,184 @@
     <title>Forever-Young</title>
 </head>
 <body>
-    <header class="d-flex justify-content-between header">
-        <div class ="d-flex ms-2 mt-3s">
-            <a class ="logo" href="index.html">Forever-young</p>
-        </div>
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="store.html">Store</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+   
+     
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#" >
+            <img src="images/main-logo.jpg" height="60px">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Sign up</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Log in</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Cart</a>
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="store.html">Store</a>
                 </li>
-                <li class="nav-item">
-                    <button class="btn btn-secondary-dropdown dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" 
-                    aria-haspopup="true" aria-expanded="false">
-                          Dropdown button
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <div class="d-flex justify-content-space-between">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                        <br><br>
-                        <div class="d-flex justify-content-space-between">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                        
-                    </div>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        
-    </header>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
+
     <div class="about-container">
         <p class="about-landing">Flash sell upto 50% off</p>
     </div>
+    <div id="team" class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="disply-4 pt-5">
+                    Today's Pick
+                </h1>
+                <hr>
+            </div>
+        </div>
+    </div>
+   
     <!--card section-->
-    <div class="row align-items-center justify-content-center mr-5 ml-5 mt-5">
-        <div class="col-md-3 col-12 mt-md-3 mt-2">
+    <div class="row container shop mx-auto">
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
             <div class="card ms-md-1 ms-5">
                 <div class="d-flex align-items-center justify-content-center">
                     <img src="./images/card-image.jpeg" alt="" class="img-fluid card-img-center image" />
                     
                 </div>
-                <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                    <div class="">
-                        <h5>Winter coat  $12</h5>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Sweater  <span>  $12 </span> </h5>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Purchese Now</a>
+                        
                     </div>
-                    <div class="">
-                        <span>  <i class="far fa-heart"></i> </span>
-                    </div>
-                </div>  
-            </div>
-        </div>
-        <div class="col-md-3 col-12 mt-md-3 mt-2">
-            <div class="card  ms-md-1 ms-5">
-                <div class="d-flex align-items-center justify-content-center">
-                    <img src="./images/8.jpg" alt="" class="img-fluid card-img-center image" />
+                    
                 </div>
-                <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                    <div class="">
-                        <h5>Winter coat  $12</h5>
-                    </div>
-                    <div class="">
-                        <span>  <i class="far fa-heart"></i> </span>
-                    </div>
-                </div>  
             </div>
         </div>
-        <div class="col-md-3 col-12 mt-md-3 mt-2">
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
             <div class="card ms-md-1 ms-5">
                 <div class="d-flex align-items-center justify-content-center">
                     <img src="./images/1.jpg" alt="" class="img-fluid card-img-center image" />
                 </div>
-                <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                    <div class="">
-                        <h5>Winter coat  $12</h5>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                    <div class="">
-                        <span>  <i class="far fa-heart"></i> </span>
-                    </div>
-                </div>  
+                    
+                </div>
             </div>
         </div>
-        <div class="col-md-3 col-12 mt-md-3 mt-2">
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
             <div class="card ms-md-1 ms-5">
                 <div class="d-flex align-items-center justify-content-center">
                     <img src="./images/2.jpg" alt="" class="img-fluid card-img-center image" />
                 </div>
-                <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                    <div class="">
-                        <h5>Winter coat  $12</h5>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                    <div class="">
-                        <span>  <i class="far fa-heart"></i> </span>
-                    </div>
-                </div>  
+                    
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="row align-items-center justify-content-center mr-5 ml-5 mt-5">
-        <div class="col-md-3 col-12 mt-md-3 mt-2">
+    <div class="row container shop mx-auto">
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
             <div class="card ms-md-1 ms-5">
                 <div class="d-flex align-items-center justify-content-center">
                     <img src="./images/3.jpg" alt="" class="img-fluid card-img-center image" />
                 </div>
-                <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                    <div class="">
-                        <h5>Winter coat  $12</h5>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                    <div class="">
-                        <span>  <i class="far fa-heart"></i> </span>
-                    </div>
-                </div>  
+                    
+                </div>
             </div>
         </div>
-        <div class="col-md-3 col-12 mt-md-3 mt-2">
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
             <div class="card ms-md-1 ms-5">
                 <div class="d-flex align-items-center justify-content-center">
                     <img src="./images/4.jpg" alt="" class="img-fluid card-img-center image" />
                 </div>
-                <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                    <div class="">
-                        <h5>Winter coat  $12</h5>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                    <div class="">
-                        <span>  <i class="far fa-heart"></i> </span>
-                    </div>
-                </div>  
-            </div>
-        </div>
-        <div class="col-md-3 col-12 mt-md-3 mt-2">
-            <div class="card  ms-md-1 ms-5">
-                <div class="d-flex align-items-center justify-content-center">
-                    <img src="./images/8.jpg" alt="" class="img-fluid card-img-center image" />
+                    
                 </div>
-                <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                    <div class="">
-                        <h5>Winter coat  $12</h5>
-                    </div>
-                    <div class="">
-                        <span>  <i class="far fa-heart"></i> </span>
-                    </div>
-                </div>  
             </div>
         </div>
-        <div class="col-md-3 col-12 mt-md-3 mt-2">
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
             <div class="card ms-md-1 ms-5">
                 <div class="d-flex align-items-center justify-content-center">
                     <img src="./images/5.jpg" alt="" class="img-fluid card-img-center image" />
                 </div>
-                <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                    <div class="">
-                        <h5>Winter coat  $12</h5>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                    <div class="">
-                        <span>  <i class="far fa-heart"></i> </span>
-                    </div>
-                </div>  
+                    
+                </div>
             </div>
         </div>
 
     </div>
-    <div class="row align-items-center justify-content-center mr-5 ml-5 mt-5">
-        <div class="col-md-3 col-12 mt-md-3 mt-2">
+    <div class="row container shop mx-auto">
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
             <div class="card ms-md-1 ms-5">
                 <div class="d-flex align-items-center justify-content-center">
                     <img src="./images/6.jpg" alt="" class="img-fluid card-img-center image" />
                 </div>
-                <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                    <div class="">
-                        <h5>Winter coat  $12</h5>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                    <div class="">
-                        <span>  <i class="far fa-heart"></i> </span>
-                    </div>
-                </div>  
+                    
+                </div>
             </div>
         </div>
-        <div class="col-md-3 col-12 mt-md-3 mt-2">
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
             <div class="card ms-md-1 ms-5">
                 <div class="d-flex align-items-center justify-content-center">
                     <img src="./images/7.jpg" alt="" class="img-fluid card-img-center image" />
                 </div>
-                <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                    <div class="">
-                        <h5>Winter coat  $12</h5>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                    <div class="">
-                        <span>  <i class="far fa-heart"></i> </span>
-                    </div>
-                </div>  
+                    
+                </div>
             </div>
         </div>
-        <div class="col-md-3 col-12 mt-md-3 mt-2">
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
             <div class="card  ms-md-1 ms-5">
                 <div class="d-flex align-items-center justify-content-center">
                     <img src="./images/8.jpg" alt="" class="img-fluid card-img-center image" />
                 </div>
-                <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                    <div class="">
-                        <h5>Winter coat  $12</h5>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
-                    <div class="">
-                        <span>  <i class="far fa-heart"></i> </span>
-                    </div>
-                </div>  
-            </div>
-        </div>
-        <div class="col-md-3 col-12 mt-md-3 mt-2">
-            <div class="card  ms-md-1 ms-5">
-                <div class="d-flex align-items-center justify-content-center">
-                    <img src="./images/8.jpg" alt="" class="img-fluid card-img-center image" />
-                </div>
-                    <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                        <div class="">
-                            <h5>Winter coat  $12</h5>
-                        </div>
-                        <div class="">
-                            <span>  <i class="far fa-heart"></i> </span>
-                        </div>
-                    </div>    
+                    
                 </div>
             </div>
         </div>
@@ -277,84 +201,145 @@
             <p class="text-center mt-5 mb-5" style="font-size: 25px; font-weight:bold">Related Items</p>
         </div>
         
-        <div class="row align-items-center justify-content-center mr-0 ml-0 mt-5">
-            <div class="col-md-2 col-12 mt-md-3 mt-2">
-                <div class="card related ms-md-1 ms-5" >
-                    <div class="d-flex align-items-center justify-content-center">
+        
+    <!--card section-->
+    <div class="row container shop mx-auto">
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
+            <div class="card ms-md-1 ms-5">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="./images/card-image.jpeg" alt="" class="img-fluid card-img-center image" />
+                    
+                </div>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Sweater  <span>  $12 </span> </h5>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Purchese Now</a>
                         
                     </div>
-                    <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                        <div class="">
-                            <h5>Winter coat  $12</h5>
-                        </div>
-                        <div class="">
-                            <span>  <i class="far fa-heart"></i> </span>
-                        </div>
-                    </div>  
+                    
                 </div>
             </div>
-            <div class="col-md-2 col-12 mt-md-3 mt-2">
-                <div class="card related ms-md-1 ms-5">
-                    <div class="d-flex align-items-center justify-content-center">
-                        
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                        <div class="">
-                            <h5>Winter coat  $12</h5>
-                        </div>
-                        <div class="">
-                            <span>  <i class="far fa-heart"></i> </span>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-            <div class="col-md-2 col-12 mt-md-3 mt-2">
-                <div class="card related ms-md-1 ms-5">
-                    <div class="d-flex align-items-center justify-content-center">
-                       
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                        <div class="">
-                            <h5>Winter coat  $12</h5>
-                        </div>
-                        <div class="">
-                            <span>  <i class="far fa-heart"></i> </span>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-            <div class="col-md-2 col-12 mt-md-3 mt-2">
-                <div class="card related ms-md-1 ms-5">
-                    <div class="d-flex align-items-center justify-content-center">
-                        
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                        <div class="">
-                            <h5>Winter coat  $12</h5>
-                        </div>
-                        <div class="">
-                            <span>  <i class="far fa-heart"></i> </span>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-            <div class="col-md-2 col-12 mt-md-3 mt-2">
-                <div class="card  related ms-md-1 ms-5">
-                    <div class="d-flex align-items-center justify-content-center">
-                        
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between mt-2 mb-2">
-                        <div class="">
-                            <h5>Winter coat  $12</h5>
-                        </div>
-                        <div class="">
-                            <span>  <i class="far fa-heart"></i> </span>
-                        </div>
-                    </div>  
-                </div>
-            </div>
-            
         </div>
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
+            <div class="card ms-md-1 ms-5">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="./images/1.jpg" alt="" class="img-fluid card-img-center image" />
+                </div>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
+            <div class="card ms-md-1 ms-5">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="./images/2.jpg" alt="" class="img-fluid card-img-center image" />
+                </div>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row container shop mx-auto">
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
+            <div class="card ms-md-1 ms-5">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="./images/3.jpg" alt="" class="img-fluid card-img-center image" />
+                </div>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
+            <div class="card ms-md-1 ms-5">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="./images/4.jpg" alt="" class="img-fluid card-img-center image" />
+                </div>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
+            <div class="card ms-md-1 ms-5">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="./images/5.jpg" alt="" class="img-fluid card-img-center image" />
+                </div>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row container shop mx-auto">
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
+            <div class="card ms-md-1 ms-5">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="./images/6.jpg" alt="" class="img-fluid card-img-center image" />
+                </div>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
+            <div class="card ms-md-1 ms-5">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="./images/7.jpg" alt="" class="img-fluid card-img-center image" />
+                </div>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-12 mt-md-4 mt-2">
+            <div class="card  ms-md-1 ms-5">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="./images/8.jpg" alt="" class="img-fluid card-img-center image" />
+                </div>
+                <div class="d-flex align-items-center justify-content-center mt-2 mb-2">
+                    <div>
+                        <h5>Smart Korta  $12</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end of card section-->
 
    
 
